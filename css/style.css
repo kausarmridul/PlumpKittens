@@ -1,0 +1,754 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*
+
+ font-family: 'Chewy', cursive;
+
+ */
+
+/* =============
+ Common Css Ends
+============== */
+
+
+
+
+/* Navbar Starts */
+
+.offcanvas {
+    z-index: 99999999999;
+}
+
+.offcanvas-body .navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.offcanvas-btn i {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.offcanvas-body .navbar a {
+    display: block;
+    padding: 15px;
+    margin-bottom: 7px;
+    background: #86CCEA;
+    width: 100%;
+    color: #fff;
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* Navbar Starts */
+
+.menu {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    z-index: 9999999999;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu .navbar a {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 17px;
+}
+
+.menu .icons a i {
+    line-height: 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #86CCEA;
+    padding: 0 9px;
+    font-size: 17px;
+    border-radius: 50%;
+    transition: all linear .2s;
+}
+
+.menu .icons a i:hover {
+    transform: translateY(-5px);
+}
+
+.menu .icons a:nth-child(2) i {
+    padding: 0 7px;
+}
+
+.menu .icons a:nth-child(3) i {
+    padding: 0 10.5px;
+}
+
+/* Navbar Ends */
+
+
+
+/* Hero Starts */
+
+
+.hero {
+    padding-top: 175px;
+    background: url(../images/hero.png) no-repeat;
+    position: relative;
+}
+
+.hero .hero-after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    background: url(../images/hero-after.png) no-repeat center / cover;
+    z-index: 2;
+    height: 302px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    background: url(../images/hero-left-vector.png) no-repeat;
+    width: 148px;
+    height: 241px;
+    z-index: 3;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    background: url(../images/hero-right-vector.png) no-repeat;
+    width: 566px;
+    height: 199px;
+    z-index: 3;
+}
+
+
+.hero .welcome-text {
+    padding-bottom: 50px;
+}
+
+.hero .welcome-text h1 {
+    font-family: 'Chewy', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 180px;
+}
+
+.hero .welcome-text p {
+    font-family: 'Chewy', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 24px 101px 37px 101px;
+}
+
+.hero .welcome-text a {
+    font-family: 'Chewy', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: #86CCEA;
+    line-height: 44px;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 0 35px;
+    transition: all linear .2s;
+}
+
+.hero .welcome-text a:hover {
+    transform: translateY(-5px);
+}
+
+.hero .nft-slider {
+    /* transform: skewX(-10deg); */
+    padding-bottom: 200px;
+}
+
+.hero .nft-slider .slider-1 {
+    /* margin-bottom: 20px; */
+    -moz-transform: rotate(-5deg) translate(-10px, 0px);
+    -webkit-transform: rotate(-5deg) translate(-10px, 0px);
+    -o-transform: rotate(-5deg) translate(-10px, 0px);
+    -ms-transform: rotate(-5deg) translate(-10px, 0px);
+    transform: rotate(-5deg) translate(-10px, 0px);
+}
+
+.hero .nft-slider .slider-2 {
+    -moz-transform: rotate(-5deg) translate(-10px, 0px);
+    -webkit-transform: rotate(-5deg) translate(-10px, 0px);
+    -o-transform: rotate(-5deg) translate(-10px, 0px);
+    -ms-transform: rotate(-5deg) translate(-10px, 0px);
+    transform: rotate(-5deg) translate(-10px, 0px);
+}
+
+
+
+
+/* Hero Ends */
+
+
+/* Story Starts */
+
+
+#story {
+    background: url(../images/story-bg.png) no-repeat;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    background-size: cover;
+}
+
+#story::before {
+    content: '';
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -269px;
+    left: 0;
+    background: url(../images/story-after.png) no-repeat;
+    height: 271px;
+    z-index: 2;
+}
+
+#story::after {
+    content: '';
+    width: 474px;
+    height: auto;
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    background: url(../images/story-vector.png) no-repeat;
+    height: 241px;
+    z-index: 2;
+}
+
+#story .story-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#story .story-text h2 {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 15px !important;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+#story .story-text p {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 5px;
+    color: #fff;
+}
+
+
+
+/* Story Ends */
+
+
+
+/* Plumb Kitchen Starts */
+#about {
+    background: url(../images/counter-bg-1.png) no-repeat center / cover;
+    padding-top: 150px;
+    position: relative;
+    padding-bottom: 180px;
+    margin-top: 100px;
+}
+
+#about::after {
+    content: '';
+    position: absolute;
+    bottom: -233px;
+    left: 0;
+    background: #beaaff;
+    width: 100%;
+    height: 378px;
+    z-index: -22;
+}
+
+#about h2 {
+    font-family: 'Chewy', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 138px !important;
+}
+
+#about .counter-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#about .counter-item {
+    margin-bottom: 95px;
+}
+
+#about .counter-item p {
+    font-family: 'Chewy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(137, 137, 137, 0.25);
+}
+
+#about .counter-item h4 {
+    font-family: 'Chewy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FF7EA3;
+    text-shadow: 0px 4px 4px rgba(137, 137, 137, 0.25);
+}
+
+/* Plumb Kitchen Ends */
+
+/* Roadmap Starts */
+
+#roadmap {
+    background: url(../images/roadmap-bg.png) no-repeat center / cover;
+    position: relative;
+    margin-top: 50px;
+}
+
+#roadmap::before {
+    content: '';
+    background: url(../images/roadmap-vector.png) no-repeat center / cover;
+    width: 100%;
+    height: 378px;
+    bottom: -255px;
+    left: 0;
+    position: absolute;
+    z-index: 12;
+}
+
+#roadmap::after {
+    content: '';
+    background: url(../images/roadmap-vector-1.png) no-repeat center / cover;
+    width: 419px;
+    height: 292px;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+    z-index: 22;
+}
+
+
+#roadmap .roadmap-heading h2 {
+    font-family: 'Chewy';
+    font-weight: 400;
+    font-size: 70px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+#roadmap .roadmap-heading p {
+    font-family: 'Chewy';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    margin-bottom: 157px !important;
+    margin-top: 6px !important;
+    padding: 0 175px;
+}
+
+#roadmap .roadmap-text {
+    position: relative;
+}
+
+#roadmap .roadmap-text::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background: url(../images/roadmap-line.png);
+    height: 1469px;
+    width: 6px;
+    transform: translateX(-50%);
+}
+
+#roadmap .roadmap-text .roadmap-item {
+    padding-bottom: 125px;
+    position: relative;
+}
+
+#roadmap .roadmap-text .roadmap-item::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(.90);
+    top: -5px;
+    z-index: 2;
+}
+
+#roadmap .roadmap-text .roadmap-item::after {
+    content: '';
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    border: 2px dotted #fff;
+    top: -19px;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+#roadmap .roadmap-text .item-1::before {
+    left: 445px;
+}
+
+#roadmap .roadmap-text .item-1::after {
+    left: 430px;
+}
+
+#roadmap .roadmap-text .roadmap-item-text {
+    border: 1px solid #fff;
+    padding: 25px 10px 25px 20px;
+    border-radius: 10px;
+}
+
+#roadmap .roadmap-text .roadmap-item-text h4 {
+    font-family: 'Chewy';
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    margin-bottom: 15px !important;
+}
+
+#roadmap .roadmap-text .roadmap-item-text p {
+    font-family: 'Chewy';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+#roadmap .roadmap-text .roadmap-image {
+    align-self: flex-end;
+}
+
+/* Roadmap Ends */
+
+
+/* Charity Starts */
+
+.charity {
+    background: #F4DF6D;
+    padding-top: 270px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.charity::after {
+    content: '';
+    background: url(../images/charity-vector.png) no-repeat center / cover;
+    width: 100%;
+    height: 209px;
+    bottom: -208px;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+
+.charity .charity-text h2 {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px !important;
+}
+
+.charity .charity-text p {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 80px;
+    color: #000;
+    margin-bottom: 27px !important;
+}
+
+.charity .charity-text ul {
+    display: flex;
+
+}
+
+.charity .charity-text ul li:nth-child(1) {
+    margin-right: 57px;
+}
+
+.charity .charity-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Charity Ends */
+
+
+
+/* Team Starts */
+
+#team {
+    background: #86FFC6;
+    padding-top: 210px;
+    position: relative;
+}
+
+#team::after {
+    content: '';
+    background: url(../images/team-vector.png) no-repeat center / cover;
+    width: 100%;
+    height: 253px;
+    bottom: -252px;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#team h2 {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 82px;
+    text-align: center;
+    margin-bottom: 83px !important;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#team .card {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+
+}
+
+#team .card .card-body {
+    padding-top: 0;
+}
+
+#team .card .card-body h3 {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    color: #000;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    margin-top: 7px;
+}
+
+#team .card .card-body p {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    color: #000;
+    font-size: 15px;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px 35px;
+}
+
+
+#team .card .card-body ul li {
+    margin-right: 8px;
+}
+
+#team .card .card-body ul li a {
+    line-height: 23px;
+    padding: 0 5px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #34FD9F;
+    background: #000;
+    font-size: 13px;
+    transition: all linear .2s;
+}
+
+#team .card .card-body ul li a:hover {
+    transform: translateY(-5px);
+}
+
+/* Team Ends */
+
+
+/* Faq Starts */
+
+#faq {
+    background: #BEAAFF;
+    padding-top: 220px;
+    padding-bottom: 145px;
+}
+
+#faq .heading {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 80px !important;
+}
+
+#faq .accordion .accordion-item {
+    margin-bottom: 17px;
+    border-radius: 15px;
+}
+
+#faq .accordion .accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+#faq .accordion .accordion-button {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    border-radius: 15px;
+}
+
+#faq .accordion .accordion-button::after {
+    color: #000;
+}
+
+#faq .accordion .accordion-body {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+#faq .accordion .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* Faq Ends */
+
+/* Footer Starts */
+
+.footer {
+    background: #BEAAFF;
+    padding-bottom: 20px;
+}
+
+.footer .footer-text h3 {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 21px !important;
+}
+
+.footer .footer-text .join-discord {
+    font-family: 'Chewy', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    background: #DD00AE;
+    line-height: 44px;
+    display: inline-block;
+    padding: 0 48px;
+    box-shadow: 4px 4px 0px #FFFD47;
+    border-radius: 25px;
+    margin-bottom: 27px;
+    transition: all linear .2s;
+
+}
+
+.footer .footer-text .join-discord:hover {
+    transform: translateY(-5px);
+}
+
+.footer .footer-text ul li a {
+    line-height: 35px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #86CCEA;
+    padding: 0 9px;
+    font-size: 17px;
+    border-radius: 50%;
+    transition: all linear .2s;
+}
+
+.footer .footer-text ul li a:hover {
+    transform: translateY(-5px);
+}
+
+.footer .footer-text ul li:nth-child(2) a {
+    padding: 0 7px;
+    margin: 0 15px;
+}
+
+.footer .footer-text ul li:nth-child(3) a {
+    padding: 0 10.5px;
+}
+
+
+/* Footer Ends */
+
+/* Copyright Starts */
+
+.copyright {
+    border-top: 1px solid #fff;
+    background: #BEAAFF;
+}
+
+.copyright p {
+    font-family: 'Chewy', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 38px;
+}
+
+.copyright p a {
+    color: #fff;
+}
+
+/* Copyright Ends */

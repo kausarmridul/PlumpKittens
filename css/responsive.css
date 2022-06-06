@@ -1,0 +1,377 @@
+/* =======================
+  Common Media Css Starts
+======================= */
+
+@media(max-width:991px) {}
+
+
+/* ====================
+  Common Media Css Ends
+=================== */
+
+/* ==========================
+   Extra Small Device Starts
+=========================== */
+
+
+@media(max-width:550px) {
+    .hero .welcome-text h1 {
+        font-size: 40px;
+        padding: 0px;
+    }
+
+    .hero .welcome-text p {
+        padding: 9px 40px 12px;
+    }
+
+    .hero .welcome-text a {
+        font-size: 14px;
+        line-height: 38px;
+        padding: 0 22px;
+    }
+
+    .hero::before {
+        bottom: -25px;
+        left: 0;
+        background: url(../images/hero-left-vector-sm.png) no-repeat;
+        width: 51px;
+        height: 67px;
+    }
+
+    #story::after {
+        width: 217px;
+        background: url(../images/story-vector-md.png) no-repeat;
+        height: 110px;
+        bottom: -110px;
+    }
+
+    #story::before {
+        background-position: center;
+    }
+
+    #story .story-text h2 {
+        font-size: 30px;
+        margin-top: 37px;
+    }
+
+    #story .story-text p {
+        padding-right: 0px;
+    }
+
+    #about {
+        background: url(../images/counter-bg-sm.png) no-repeat center / cover;
+        padding-top: 150px;
+        position: relative;
+        padding-bottom: 180px;
+        margin-top: 100px;
+    }
+
+    #about h2 {
+        font-size: 30px;
+    }
+
+    #about h2 {
+        margin-bottom: 70px !important;
+    }
+
+    #about .counter-item p {
+        font-size: 20px;
+        padding: 0 75px;
+    }
+
+    #about .counter-item h4 {
+        font-size: 30px;
+        margin-top: 12px;
+    }
+
+    #about .counter-item {
+        margin-bottom: 60px;
+    }
+
+    #roadmap {
+        background-size: unset;
+    }
+
+    #roadmap::before {
+        height: 264px;
+    }
+
+    #roadmap::after {
+        display: none;
+    }
+
+    #roadmap .roadmap-text::before {
+        left: 5%;
+        transform: translateX(0%);
+    }
+
+    #roadmap .roadmap-text .roadmap-item::before {
+        width: 14px;
+        height: 14px;
+        left: 4%;
+        transform: translateX(-4%);
+    }
+
+    #roadmap .roadmap-text .roadmap-item::after {
+        width: 22px;
+        height: 22px;
+        left: 3%;
+        top: -9px;
+        transform: translateX(-8%);
+    }
+
+    #roadmap .roadmap-text .roadmap-item {
+        padding-bottom: 22px;
+    }
+
+    #roadmap .roadmap-heading h2 {
+        font-size: 30px;
+    }
+
+    #roadmap .roadmap-heading p {
+        font-size: 14px;
+        margin-top: 10px !important;
+        padding: 0 30px;
+        margin-bottom: 35px !important;
+    }
+
+    #roadmap .roadmap-text .roadmap-item-text {
+        margin-left: auto;
+    }
+
+    #roadmap .roadmap-text .roadmap-item-text h4 {
+        font-size: 25px;
+    }
+
+    #roadmap .roadmap-text .roadmap-item-text p {
+        font-size: 14px;
+    }
+
+    .charity .charity-text h2 {
+        font-size: 48px;
+        margin-top: 42px;
+    }
+
+    .charity .charity-text p {
+        padding-right: 0px;
+    }
+
+    #team h2 {
+        font-size: 30px;
+        margin-bottom: 50px !important;
+    }
+
+    #team .card .card-body h3 {
+        font-size: 30px;
+    }
+
+    #team .card {
+        margin-bottom: 50px;
+    }
+
+    #team::after {
+        height: 230px;
+        bottom: -174px;
+    }
+
+    #faq .heading {
+        font-size: 30px;
+        margin-bottom: 35px !important;
+    }
+
+    #faq .accordion .accordion-button {
+        font-size: 16px;
+    }
+
+    .footer .footer-text h3 {
+        font-size: 14px;
+    }
+
+    .footer .footer-text .join-discord {
+        font-size: 14px;
+        line-height: 32px;
+        padding: 0 27px;
+    }
+}
+
+
+
+/* ==========================
+   Extra Small Device Ends
+=========================== */
+
+
+/* =====================
+    Small Device Starts
+==================== */
+
+@media (min-width:576px) and (max-width:767px) {}
+
+
+/* ====================
+    Small Device Ends
+=================== */
+
+
+/* =====================
+    Medium Device Starts
+==================== */
+
+@media (min-width:555px) and (max-width:991px) {
+    .menu {
+        top: 0;
+    }
+
+
+
+    .hero .welcome-text h1 {
+        font-size: 64px;
+        padding: 0 50px;
+    }
+
+    .hero .welcome-text p {
+        padding: 24px 115px 37px 115px;
+    }
+
+    .hero::before {
+        bottom: 0;
+    }
+
+    #story .story-text h2 {
+        font-size: 48px;
+    }
+
+    #story::before {
+        background-position: center;
+    }
+
+    #story::after {
+        width: 217px;
+        background: url(../images/story-vector-md.png) no-repeat;
+        height: 110px;
+        bottom: -110px;
+    }
+
+    #about h2 {
+        font-size: 48px;
+    }
+
+    #about .counter-item p {
+        font-size: 20px;
+    }
+
+    #about .counter-item h4 {
+        font-size: 30px;
+    }
+
+    #about .counter-item {
+        margin-bottom: 59px;
+    }
+
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-size: contain;
+    }
+
+    #about h2 {
+        margin-bottom: 100px !important;
+    }
+
+    #about::after {
+        bottom: -178px;
+        height: 350px;
+    }
+
+    #about::before {
+        content: '';
+        background: #fae98d;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #roadmap {
+        background: url(../images/roadmap-bg.png) no-repeat;
+    }
+
+    #roadmap .roadmap-heading h2 {
+        font-size: 48px;
+    }
+
+    #roadmap .roadmap-heading p {
+        padding: 0 50px;
+    }
+
+    #roadmap .roadmap-text .roadmap-item-text h4 {
+        font-size: 40px;
+    }
+
+    #roadmap .roadmap-text .roadmap-image {
+        align-self: center;
+    }
+
+    #roadmap .roadmap-text .roadmap-item-text {
+        padding: 12px 0px 17px 18px;
+    }
+
+    #roadmap .margin-left {
+        margin-left: -7% !important;
+    }
+
+    .charity .charity-text h2 {
+        font-size: 48px;
+    }
+
+    .charity .charity-text p {
+        padding-right: 0px;
+    }
+
+    #team h2 {
+        font-size: 48px;
+    }
+
+    #team .card .card-body h3 {
+        font-size: 30px;
+    }
+
+    #team .card .card-body p {
+        padding: 0px;
+    }
+
+    #faq .heading {
+        font-size: 48px;
+    }
+
+    #faq .accordion .accordion-button {
+        font-size: 18px;
+    }
+}
+
+/* ====================
+    Medium Device Ends
+=================== */
+
+
+/* =====================
+    Large Device Starts
+==================== */
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+/* ====================
+    Large Device Ends
+=================== */
+
+
+/* ==========================
+    Extra Large Device Starts
+========================= */
+
+@media (min-width:1200px) {}
+
+/* =========================
+    Extra Large Device Ends
+========================= */
