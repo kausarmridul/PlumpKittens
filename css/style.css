@@ -117,17 +117,19 @@ ol {
     padding-top: 175px;
     background: url(../images/hero.png) no-repeat;
     position: relative;
+    padding-bottom: 200px;
+    background-size: cover;
 }
 
 .hero .hero-after {
     content: "";
     width: 100%;
     position: absolute;
-    bottom: -170px;
+    bottom: -160px;
     left: 0;
     background: url(../images/hero-after.png) no-repeat center / cover;
     z-index: 2;
-    height: 302px;
+    height: 308px;
 }
 
 .hero::before {
@@ -191,8 +193,8 @@ ol {
 }
 
 .hero .nft-slider {
-    /* transform: skewX(-10deg); */
-    padding-bottom: 200px;
+    position: relative;
+    z-index: 222;
 }
 
 .hero .nft-slider .slider-1 {
@@ -239,6 +241,7 @@ ol {
     background: url(../images/story-after.png) no-repeat;
     height: 271px;
     z-index: 2;
+    background-size: cover;
 }
 
 #story::after {

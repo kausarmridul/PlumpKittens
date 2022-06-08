@@ -15,6 +15,18 @@
 
 
 @media(max-width:550px) {
+    .hero {
+        padding-bottom: 80px;
+        background-size: cover;
+    }
+
+    .hero::after {
+        width: 170px;
+        height: 150px;
+        background-position: center;
+        background-size: contain;
+    }
+
     .hero .welcome-text h1 {
         font-size: 40px;
         padding: 0px;
@@ -108,16 +120,16 @@
     #roadmap .roadmap-text .roadmap-item::before {
         width: 14px;
         height: 14px;
-        left: 4%;
-        transform: translateX(-4%);
+        left: 4.3%;
+        transform: translateX(-4.3%);
     }
 
     #roadmap .roadmap-text .roadmap-item::after {
         width: 22px;
         height: 22px;
-        left: 3%;
+        left: 3.3%;
         top: -9px;
-        transform: translateX(-8%);
+        transform: translateX(-4.3%);
     }
 
     #roadmap .roadmap-text .roadmap-item {
@@ -222,7 +234,15 @@
         top: 0;
     }
 
+    .hero {
+        padding-bottom: 120px;
+        background-size: cover;
+    }
 
+    .hero .hero-after {
+        bottom: -199px;
+        height: 366px;
+    }
 
     .hero .welcome-text h1 {
         font-size: 64px;
