@@ -125,11 +125,11 @@ ol {
     content: "";
     width: 100%;
     position: absolute;
-    bottom: -160px;
+    bottom: -185px;
     left: 0;
     background: url(../images/hero-after.png) no-repeat center / cover;
     z-index: 2;
-    height: 308px;
+    height: 342px;
 }
 
 .hero::before {
